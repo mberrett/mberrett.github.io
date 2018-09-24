@@ -1,0 +1,73 @@
+h1 {
+  font-family: 'Futura';
+}
+
+#intro {
+  height: 900px;
+  position: relative;
+  text-align:center;
+}
+
+#intro h1 {
+  padding-top: 350px;
+  color: #151515;
+}
+
+
+#about {
+  height: 800px;
+  background: #151515;
+  vertical-align:middle;
+}
+
+#about h1 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+
+#about p {
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+#resume {
+  position: relative;
+  text-align:center;
+  height: 200px;
+  background: #78bf8c;
+}
+
+#resume h1 {
+  padding-top: 70px;
+}
+
+#resume a {
+  color: #151515;
+  text-decoration: none;
+}
+
+#resume a:hover {
+color: #0e9927;
+}
+
+#contact {
+  height: 200px;
+  position: relative;
+  text-align:center;
+}
+
+#contact h1 {
+  padding-top: 50px;
+}
+
+#contact a {
+  color: #78bf8c;
+  text-decoration: none;
+}
+
+#contact a:hover {
+color: #0e9927;
+}
