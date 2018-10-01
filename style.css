@@ -15,9 +15,11 @@ h1 {
 
 
 #about {
-  height: 800px;
   background: #151515;
   vertical-align:middle;
+  display: inline-block;
+  padding: 30px;
+  padding-bottom: 50px;
 }
 
 #about h1 {
