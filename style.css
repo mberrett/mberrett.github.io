@@ -112,3 +112,47 @@ hr {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.link {
+  position: relative;
+}
+
+a {
+  color: #1d1d1d;
+  text-decoration: none;
+
+  display: inline-block;
+  position: relative;
+}
+
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #d80000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+#about a {
+  text-decoration: none;
+  color: #fffdfa;
+}
